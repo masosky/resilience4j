@@ -46,7 +46,7 @@ public class MyModule extends AbstractModule {
                         .failureRateThreshold(25)
             );
         });
-        install(new Resilience4jModule());
+        install(module);
     }
 }
 ----
